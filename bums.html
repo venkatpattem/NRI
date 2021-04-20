@@ -1,0 +1,1785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="img/nrilogo.png" type="image/png" />
+    <title>BUMS</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area white-header">
+        <div class="main_menu">
+            <div class="search_input" id="search_input_box">
+                <div class="container">
+                    <form class="d-flex justify-content-between" method="" action="">
+                        <input type="text" class="form-control" id="search_input" onkeyup="myFunction()" placeholder="Search Here" />
+                        <button type="submit" class="btn"></button>
+                        <span class="ti-close" id="close_search" title="Close Search" onClick="window.location.reload()"></span>
+                    </form>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light" id="myMenu">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html">
+                        <img src="img/logo2.png" alt="" height="100" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="about-us.html">About Us</a>
+                            </li>
+                            <li class="nav-item submenu dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses Offered</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Courses</a>
+                                        <div style="position: absolute;left: 100%;top:0px">
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="courses.html">Medical</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="engineering.html">Engineering</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="course-details.html">Course Details</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="elements.html">Elements</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="career.html">Career Guidance</a>
+                            </li>
+                            <!-- <li class="nav-item submenu dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Blog</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="single-blog.html"
+                        >Blog Details</a
+                      >
+                    </li>
+                  </ul>
+                </li> -->
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mocktest.html">Mocktest</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link search" id="search">
+                                    <i class="ti-search"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
+
+    <!--================Home Banner Area =================-->
+    <section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="banner_content text-center">
+                            <h2>Course Details</h2>
+                            <div class="page_link">
+                                <a href="index.html">Home</a>
+                                <!-- 0 -->
+                                <a href="course-details.html">Courses Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!--================ Start Course Details Area =================-->
+    <section class="course_details_area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 course_details_left">
+                    <div class="main_image">
+                        <img class="img-fluid" src="img/courses/course-details.jpg" alt="">
+                    </div>
+                    <div class="content_wrapper">
+                        <h4 class="title">Objectives</h4>
+                        <div class="content text-justify">
+                            Bachelor of Unani Medicine and Surgery (BUMS) is an undergraduate medical course. Unani is one of the oldest medication systems in the world. Unani medicine is an alternative medicine that involves the use of dietary practices, herbal remedies, and alternative
+                            therapies for the treatments.
+                            <br> This treatment system is widely adopted in Indian medical fields. The duration of the course is generally three years but in some of the colleges is 5 years. The course is career-oriented in nature and opens many job opportunities
+                            both in government and private sector hospitals and clinics.
+                        </div>
+
+                        <h4 class="title">Eligibility</h4>
+                        <div class="content text-justify">
+                            <ul>
+                                <li>Aspiring students should have passed 10+2 with subjects such as Physics, Chemistry, and Biology with a minimum of 50% marks from a recognized school board.</li>
+                                <li>Some of the reputed colleges and universities conduct an entrance test for admission. </li>
+                            </ul>
+                        </div>
+                        <!--=============================START COLLEGES AREA==================================================-->
+                        <h4 class="title">Course Outline</h4>
+                        <div class="content">
+                            <div class="container-fluid py-3 ">
+                                <div class="row">
+                                    <div class="col-10 mx-auto">
+                                        <div class="accordion" id="faqExample">
+                                            <!--==================START ANDHRA PRADESH================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Andhra Pradesh </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/dr abdul haq.jpg" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Dr. Abdul Haq Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> #40/23, Park Road, Kurnool, Andhra Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (08518) 222842, 222192, 251546 / 9393821820
+                                                                            <!-- / <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0883) 2471217 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/dr ntr.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Dr. NTR University of Health Sciences</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> NTR UHS, NH-5, Frontage Road, Vijayawada, Andhra Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0866) 2450569 / 7032646334 - Public Relation Officer /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=============================END ANDHRA PRADESH=======================================-->
+                                            <!--==================START BIHAR================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo1" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Bihar </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo1" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/aku.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Aryabhatta Knowledge University - AKU</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Gyan Parisar, Mithapur, Patna, Bihar.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0612) 2351919, 2362270 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0612) 2362270
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/brabu.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Babasaheb Bhimrao Ambedkar Bihar University - BRABU</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Kalambagh Road, B.R. Ambedkar Bihar University, Muzzafarpur, Bihar.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0621) 2243071
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/gtch.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Government Tibbi College and Hospital - GTCH</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Arya Road, Budh Murti, New Area, Kadamkuna, Patna, Bihar.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0612) 2721947 / 9304709088
+                                                                            <!-- / <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0883) 2471217 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/nezamia.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Nezamia Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Village- Dumri, P.O. Rasalpur, Gaya, Bihar.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0631) 2271818 / 9006027570
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/salfia.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Salfia Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Laheriasarai, Darbhanga, Bihar.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0627) 2234181 / 7033699171, 7033699170
+                                                                            <!-- / <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0883) 2471217 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=============================END BIHAR=======================================-->
+                                            <!--==================START DELHI================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo2" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Delhi </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo2" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/ayurvedic.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Ayurvedic and Unani Tibbia College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Ajmal Khan Road, Karol Bagh, New Delhi, Delhi.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (011) 23524180, 23676499 / 9873839435
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0612) 2362270 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                Contact Us
+                                                             </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <!-- <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/brabu.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div> -->
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">School of Unani Medicine</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Jamia Hamdard, Hamdard Nagar, Delhi, Delhi.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (011) 26059688
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                Contact Us
+                                                           </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/du.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">University of Delhi - DU</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i>Delhi, Delhi.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (011) 27667623 - 1653 (EPABX) - Deputy Registrar /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(011)27667524
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=======================================END DELHI=======================================-->
+                                            <!--==================START JAMMU AND KASHMIR================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo3" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Jammu and Kashmir </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo3" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/kashmir tibbia.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Kashmir Tibbia College, Hospital and Research Centre</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Taleemabad Shilvath Sonawari, Tehsil- Sumbal, District- Bandipora, Srinagar, Jammu and
+                                                                            Kashmir.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0195) 4230290 / 9419010753
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0612) 2362270 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                            Contact Us
+                                                             </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <!-- <div class="mr-3 college-logo">
+                                                                                                    <img src="img/bums/brabu.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                                                </div> -->
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Near Baba Atomic Research Centre, Habbak Crossing, Zakura, Srinagar, Jammu and Kashmir.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <!-- <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (011) 26059688
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                            Contact Us
+                                                           </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=======================================END JAMMU AND KASHMIR=======================================-->
+                                            <!--==================START KARNATAKA================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo4" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Karnataka </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo4" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <!-- <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/aku.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div> -->
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Government Unani Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Siddaiah Puranika Road, Basaveshwara Nagar, Bangalore, Karnataka.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (080) 23116061
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0612) 2362270 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/hms unani.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">HMS Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Sadashiva Nagar 2nd Stage, Post Marlur, Tumkur, Karnataka.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0816) 2201674 / 9342123016, 9821325250 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0816) 2201362
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/luqman.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">
+                                                                                Luqman Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> S.A. Punekar, 12, Naubag, Bijapur, Karnataka.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (08352) 222769 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (08352) 277353
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/national institute.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">National Institute of Unani Medicine</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Kottigepalya, Magadi Main Road, Bangalore, Karnataka.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (080) 23584260 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (080) 23584180
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/tipu sultan.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Tipu Sultan Unani Medical College and Hospital - TSUMCH</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Millat Nagar, Ring Road, Gulbarga, Karnataka.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0847) 268269 / 9538554241 (Manager), 7795567015 (Principal)
+                                                                            <!-- / <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0883) 2471217 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=============================END KARNATAKA=======================================-->
+                                            <!--==================START KERALA================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo5" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Kerala </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo5" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/kuhs.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Kerala University of Health Sciences - KUHS</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Medical College P.O. , Thrissur, Kerala.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0487) 2207650, 2207664 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0487) 2207616
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                    Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/markaz.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Markaz Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Puthuppadi, Kozhikode, Kerala.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0495) 2964055 / 9567178444
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                    Contact Us
+                                                          </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=======================================END KERALA=======================================-->
+                                            <!--==================START MADHYA PRADESH================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo6" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Madhya Pradesh </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo6" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <!-- <div class="mr-3 college-logo">
+                                                                            <img src="img/bums/aku.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                        </div> -->
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Al-Farooq Unani Tibbia College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> #1, Dargah Main Road, Khajrana, Indore, Madhya Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0731) 2595252, 2593923
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0612) 2362270 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/hakeem.jpg" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Hakeem Abdul Hameed Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Dewas, Madhya Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (07272) 220788 - Principal / 9826330951 - Principal
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0816) 2201362 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/hakim.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">
+                                                                                Hakim Syed Ziaul Hasan Government Autonomous Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> AYUSH Campus, Nehru Nagar, Kolar Bypass Road, Behind MANIT, Bhopal, Madhya Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> 9302336824
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (08352) 277353 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/mpmsu.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Madhya Pradesh Medical Science University - MPMSU</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Medical College Campus, Jabalpur, Madhya Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i>(0761) 2670335 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0761) 2670333
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/salfia.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Saifia Hamidia Unani Medical College Saeeda Hospital and Research Centre</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Ganpati Naka Khandwa Road, Burhampur, Madhya Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (07325) 245347
+                                                                            <!-- / <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0883) 2471217 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=============================END MADHYA PRADESH=======================================-->
+                                            <!--==================START MAHARASHTRA================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo7" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Maharashtra </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo7" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body" style="height: 500px;overflow: scroll;">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/anjuman.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Anjuman-I-Islam's Dr. M.I.J. Unani Medical College and H.A.R.Kalsekar Tibbia Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> 60, Yari Road, Versova, Andheri [W], Mumbai, Maharashtra.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (022) 26361199
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0612) 2362270 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/iqra.png" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Iqra Unani Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Jalgaon, Maharashtra.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0257) 2264826
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0816) 2201362 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                            Contact Us
+                                                            </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/jamia islamia.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">
+                                                                                Jamia Islamia Ishatul Uloom Ahmed Garib Unani College and AS-Salam Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Akkalkuwa, Nandurbar, Maharashtra.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (02567) 252120 / 9420601333, 9422650842 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (02567) 252020
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                            Contact Us
+                                                                        </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/maharashtra.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Maharashtra University of Health Sciences</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Vani Road, Mhasrul, Nasik, Maharashtra.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i>(0253) 2539100, 2539300, 6659100, 6659300 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0253) 2539295, 6659295
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <!-- <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/salfia.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div> -->
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Mohammadia Tibbia College and Assayer Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> P.B.No. 128, Mansoora, Malegaon, Nasik, Maharashtra.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <!--   <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (07325) 245347
+                                                                             <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0883) 2471217 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/shivaji.jpg" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Shivaji University</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Vidyanagar, Kolhapur, Maharashtra.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0231) 2609000, 2609063 / Toll Free No. 1800-233-4871 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0231) 2692333
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/yunus.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Yunus Fazlani Unani Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Kunjkheda, Tal. Kannad, Aurangabad, Maharashtra.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (02435) 213557 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(02435) 213557
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/zvm.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">
+                                                                                ZVM Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Azam Campus, Gate No. 4, Off Shankar Shet Road, Camp, Pune, Maharashtra.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (020) 26455153, 26446748 / 9850541686 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (020) 26446748
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                    Contact Us
+                                                                </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=============================END MAHARASHTRA======================================-->
+                                            <!--==================START PUNJAB================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo8" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Punjab </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo8" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/grau.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Guru Ravidas Ayurved University - GRAU</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> VPO Kharkan, Una Road, Hoshiarpur, Punjab.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (01882) 282326 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (01882) 282445
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                Contact Us
+                                                             </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/rehbar.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Rehbar Ayurvedic and Unani Tibbi Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Sangrur Road, Fagguwala Crossing, Near Dera Saccha Sauda, Bhawanigarh, Sangrur, Punjab.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> 9814178630, 9417760637
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                Contact Us
+                                                             </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=======================================END PUNJAB=======================================-->
+                                            <!--==================START RAJASTHAN================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo9" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Rajasthan </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo9" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/rajasthan.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Rajasthan Unani Medical College and Hospital</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Paldi Meena, Dravid Nagar, Agra Road, Jaipur, Rajasthan.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> 8952020969
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (01882) 282445 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                Contact Us
+                                                             </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/rajputana.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Rajputana Unani Medical College Hospital and Research Center</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Gujro Ka Mohalla, Jagatpura Road, Khonagoriyan, Jaipur, Rajasthan.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0141) 3141906, 3141907 / 9314613927
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                Contact Us
+                                                             </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=======================================END RAJASTHAN=======================================-->
+                                            <!--==================START TAMIL NADU================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo10" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Tamil Nadu </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo10" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/dawakhana.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Dawakhana Tibbiya College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Theni, Tamil Nadu.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i>(0571) 2400529
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0571) 2408028
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                          Contact Us
+                                                         </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <!-- <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/rajputana.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div> -->
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Government Unani Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Arumbakkam, Chennai, Tamil Nadu.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (044) 26214844, 26216244
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                                                    Contact Us
+                                                                                                 </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=======================================END TAMIL NADU=======================================-->
+                                            <!--==================START TELANGANA================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo11" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Telangana</h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo11" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <!-- <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/dawakhana.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div> -->
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Al-Arif Unani Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> 18-13-132/41, Bandlaguda, , Telangana.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i>9133894243
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0571) 2408028 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                          Contact Us
+                                                         </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <!-- <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/rajputana.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div> -->
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Government Nizamia Tibbi College </a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Near Charminar, , Telangana.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (040) 24522048, 24524424
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                                                    Contact Us
+                                                                                                 </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/kaloji.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Kaloji Narayana Rao University of Health Sciences</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Nizampura, , Telangana.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0870) 2454555 - Registrar
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                                                    Contact Us
+                                                                                                 </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=======================================END TELANGANA=======================================-->
+                                            <!--==================START UTTAR PRADESH================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo12" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Uttar Pradesh</h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo12" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/deoband.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Deoband Unani Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Mohalla-Naya Bans, Near Talheri Chungi, Deoband, Saharanpur, Uttar Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i>(01336) 222210 / 9219429830 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (01336) 224345
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                  Contact Us
+                                                                 </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/eram.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Eram Unani Medical College and Hospital </a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Kursi Road, Gudamba, Lucknow, Uttar Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0522) 2760462 / 9307219807, 9307219808
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                                                            Contact Us
+                                                                                                         </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/sgm unani.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">S.G.M. Unani Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> National Highway 29, Awakarpur, Ghazipur, Uttar Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> 9918900218
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                                                            Contact Us
+                                                                                                         </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/sgm ayurvedic.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">SGM Ayurvedic and Unani Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Post Box No. Saheri, Ghazipur, Uttar Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0548) 2223931 /
+                                                                            <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0548) 2223625
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                  Contact Us
+                                                                 </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/state takmeel.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">State Takmeel-Ut-Tib College </a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Near Ramabai Rally Sthal, Bijnor Road, Lucknow, Uttar Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> 8052142175
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                                                            Contact Us
+                                                                                                         </button>
+                                                        </div>
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/state unani.gif" alt="image" style="object-fit: contain;" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">State Unani Medical College</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Himmatganj, Allahabad, Uttar Pradesh.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i> (0532) 2615728 / 8840312434
+                                                                            <!--      <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i>(0866) 2450463 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                                                                                                                                            Contact Us
+                                                                                                         </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=======================================END UTTAR PRADESH=======================================-->
+                                            <!--==================START UTTARAKHAND================================-->
+                                            <div class="card">
+                                                <div class="card-header p-2 " id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link text-justify" type="button" data-toggle="collapse" data-target="#collapsedemo13" aria-expanded="true" aria-controls="collapseOne">
+                                                            <h4> Uttarakhand </h4>
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapsedemo13" class="collapse " aria-labelledby="headingOne" data-parent="#faqExample">
+                                                    <div class="card-body">
+                                                        <div class="card pmd-card college-card pt-3">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="mr-3 college-logo">
+                                                                        <img src="img/bums/uumch.gif" alt="image" height="100" width="100" border="0" class="pmd-card-media">
+                                                                    </div>
+                                                                    <div class="media-body">
+                                                                        <h5 class="card-title">
+                                                                            <a class="card-title h5">Uttaranchal Unani Medical College and Hospital - UUMCH</a>
+                                                                        </h5>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-location-pin"></i> Mustafabad (Padratha), Laksar Road, Haridwar, Uttarakhand.
+                                                                        </p>
+                                                                        <p class="card-subtitle mt-0">
+                                                                            <i class="material-icons pmd-icon-xs align-middle md-dark"><i class="ti-mobile"></i>(01334) 286440 / 9012163784, 9719666440
+                                                                            <!-- <i class="material-icons pmd-icon-xs" style="font-size: 16px"><i class="ti-email"></i> (0571) 2408028 -->
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <hr>
+                                                            </div>
+                                                            <button type="button" class="btn btn-primary pmd-btn-flat btn-block pmd-ripple-effect" data-toggle="modal" data-target="#myModal">
+                                                              Contact Us
+                                                             </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--=======================================END UTTARAKHAND=======================================-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--===================================================END COLLEGES AREA=================================================-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ End Course Details Area =================-->
+    <!--=======================START CONTACT FORM============================================-->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <form action="mail.php" method="post">
+                    <div class="card border-dark  rounded-5">
+                        <div class="card-header p-0">
+                            <button type="button" class="close m-2  p-1 text-white" data-dismiss="modal">×</button>
+                            <div class="text-white text-center py-2" style="background-color: #002347;">
+                                <h3 class="text-white"> Contact Us</h3>
+
+                            </div>
+                        </div>
+                        <div class="card-body p-3">
+
+                            <!--Body-->
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="ti-user"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="ti-mobile"></i></div>
+                                    </div>
+                                    <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="Enter Mobile No." required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="ti-email"></i></div>
+                                    </div>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="ti-comment-alt"></i></div>
+                                    </div>
+                                    <textarea class="form-control" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <input type="submit" value="Submit" class="btn btn-warning btn-block rounded py-2">
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    <!--=======================END CONTACT FORM============================================-->
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-2 col-md-6 single-footer-widget">
+                  <h4>Top Products</h4>
+                  <ul>
+                      <li><a href="#">Managed Website</a></li>
+                      <li><a href="#">Manage Reputation</a></li>
+                      <li><a href="#">Power Tools</a></li>
+                      <li><a href="#">Marketing Service</a></li>
+                  </ul>
+              </div> -->
+                <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About</a></li>
+                        <li><a href="courses.html">Courses Offered</a></li>
+                        <li><a href="career.html">Career Guidance</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>Features</h4>
+                    <ul>
+                        <li><a href="#">Colleges</a></li>
+                        <li><a href="#">Brand Assets</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-lg-2 col-md-6 single-footer-widget">
+                  <h4>Resources</h4>
+                  <ul>
+                      <li><a href="#">Guides</a></li>
+                      <li><a href="#">Research</a></li>
+                      <li><a href="#">Experts</a></li>
+                      <li><a href="#">Agencies</a></li>
+                  </ul>
+              </div> -->
+                <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>Newsletter</h4>
+                    <p>You can trust us. we only send promo offers,</p>
+                    <div class="form-wrap" id="mc_embed_signup">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+                            <input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" required="" type="email" />
+                            <button class="click-btn btn btn-default">
+                                  <span>subscribe</span>
+                           </button>
+                            <div style="position: absolute; left: -5000px;">
+                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text" />
+                            </div>
+
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bottom d-flex justify-content-between">
+                <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved |
+                    <!-- This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+                <div class="col-lg-4 col-sm-12 footer-social">
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"><i class="ti-twitter"></i></a>
+                    <a href="#"><i class="ti-dribbble"></i></a>
+                    <a href="#"><i class="ti-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+    <script>
+        function myFunction() {
+            var input, filter, nav, li, a, i;
+            input = document.getElementById("search_input");
+            filter = input.value.toUpperCase();
+            nav = document.getElementById("myMenu");
+            li = nav.getElementsByTagName("li");
+
+
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/owl-carousel-thumb.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
